@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/cv_task"
         card_view:cardCornerRadius="5dp"
-        card_view:cardElevation="4dp">
+        card_view:cardElevation="4dp"
+        android:layout_marginBottom="10dp">
     <LinearLayout
         android:padding="5dp"
         android:layout_margin="5dp"
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/judul_task"
         android:text="judul"
-        android:textSize="17sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textAllCaps="true"/>
 
@@ -49,8 +50,7 @@
                 android:text="map"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textSize="25sp"
-                android:textColor="@color/white"
+                android:textSize="20sp"
                 android:textAllCaps="true"/>
         </LinearLayout>
 
@@ -71,16 +71,17 @@
                 android:gravity="center"
                 android:text="check up"
                 android:textAllCaps="true"
-                android:textSize="25sp" />
+                android:textSize="20sp" />
         </LinearLayout>
         <TextView
             android:id="@+id/edit_information"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="8sp"
             android:text="edit information"
             android:textAllCaps="true"
             android:textColor="@color/colorPrimaryDark"
-            android:layout_margin="5dp"
+            android:layout_marginLeft="5dp"
             android:layout_gravity="left"/>
 
     </LinearLayout>
