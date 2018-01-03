@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_semua_kategori"-->
+            <!--android:title="@string/dash_a"-->
+            <!--android:visible="false" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_bahan_pokok"-->
+            <!--android:title="@string/dash_b"-->
+            <!--android:visible="false" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_bahan_sekunder"-->
+            <!--android:title="@string/dash_c"-->
+            <!--android:visible="false" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_logout"-->
+            <!--android:title="@string/dash_d"-->
+            <!--android:visible="false" />-->
+        <item
+            android:id="@+id/nav_potongan"
+            android:title="tes"
+            android:visible="true" />/>
+
+    </group>
+
+</menu>
